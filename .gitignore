@@ -1,3 +1,15 @@
+# Rasa Core
+models/
+test.py
+credentials.yml
+application.config
+graph.html
+*.db
+*.log
+*.dot
+*.tar.gz
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
