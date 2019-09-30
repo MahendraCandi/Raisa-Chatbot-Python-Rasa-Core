@@ -1,0 +1,240 @@
+intents:
+  - sapaan
+  - selamat_tinggal
+  - konfirmasi
+  - tolak
+  - pertandingan_kriket
+  - terima_kasih
+  - cari_restoran
+  - cek_restoran
+  - cek_informasi_tenor
+  - ketik_nomor_kontrak
+  - ketik_nomor_ktp
+  - inform
+  - chitchat
+  - cancel
+  - show_quick_reply
+  - show_octocat
+  - show_kucing_lucu
+  - show_monyet_lucu
+  - show_avatar_bot
+  - show_random_image
+  - link_attachment
+  - cek_nomor_kontrak
+  - kendala_nomor_kontrak
+  - ketik_nomor_handphone
+entities:
+  - cuisine
+  - num_people
+  - seating
+  - feedback
+  - number
+  - nomor_kontrak
+  - nomor_ktp
+  - kendala_nomor_kontrak
+  - is_kontrak_aktif
+  - nomor_hp
+  - is_follow_up_cabang
+  - is_kontrak_kenal
+slots:
+  bot_name:
+    type: text
+    initial_value: Raisa_bot
+  cuisine:
+    type: unfeaturized
+    auto_fill: false
+  customer_name:
+    type: text
+    initial_value: human
+  feedback:
+    type: unfeaturized
+    auto_fill: false
+  is_talk_to_cs:
+    type: bool
+  is_terima_salinan_kontrak:
+    type: bool
+  nomor_kontrak:
+    type: unfeaturized
+    auto_fill: false
+  nomor_ktp:
+    type: unfeaturized
+    auto_fill: false
+  num_people:
+    type: unfeaturized
+    auto_fill: false
+  outdoor_seating:
+    type: unfeaturized
+    auto_fill: false
+  preferences:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+    auto_fill: false
+  kendala_nomor_kontrak:
+    type: text
+  is_kontrak_aktif:
+    type: unfeaturized
+    auto_fill: false
+  nomor_hp:
+    type: unfeaturized
+    auto_fill: false
+  is_follow_up_cabang:
+    type: unfeaturized
+    auto_fill: false
+  is_kontrak_kenal:
+    type: unfeaturized
+    auto_fill: false
+actions:
+  - utter_sapaan
+  - action_hit_pertandingan
+  - utter_konfirmasi_info
+  - utter_terima_kasih
+  - utter_terima_kasih_feedback
+  - utter_selamat_tinggal
+  - utter_tanya_kembali
+  - utter_slot_values
+  - action_reset
+  - action.menu_utama
+  - action.informasi_tenor.validateKontrakKtp
+  - action.informasi_tenor.showTenor
+  - action.informasi_tenor.talkToLiveAgent
+  - utter_follow_up_cabang
+  - utter_affirm_talk_to_agent
+  - utter_end_dialog
+  - utter_ask_continue
+  - utter_cancel_response
+  - action.show_quick_reply
+  - utter_image_octocat
+  - utter_image_kucing_lucu
+  - utter_image_monyet_lucu
+  - utter_image_avatar_bot
+  - utter_random_image
+  - action.random_image
+  - action.link_attachment
+  - action.nomor_kontrak.askKendala
+  - action.nomor_kontrak.askKontrakAktif
+  - utter_ask_nomor_kontrak_sebenarnya
+  - action.nomor_kontrak.validateKontrak
+forms:
+  - restoran_form
+  - informasi_tenor_form
+  - form_kendala_nomor_kontrak
+templates:
+  utter_sapaan:
+    - text: Hai {customer_name}, ada yang bisa saya bantu?
+  utter_konfirmasi_info:
+    - text: Apakah cukup informasinya?
+  utter_terima_kasih:
+    - text: Terima kasih!
+  utter_terima_kasih_feedback:
+    - text: Terima kasih kembali, sampai jumpa!
+  utter_selamat_tinggal:
+    - text: Bye, hubungi aku lagi ya!
+    - text: Sampai jumpa kembali
+  utter_tanya_kembali:
+    - text: Baik, kita ulang kembali ya. Ada yang bisa dibantu?
+    - text: Boleh diulangi pertanyaannya?
+  utter_ask_cuisine:
+    - text: Mau restoran dengan masakan apa ya?
+  utter_ask_num_people:
+    - text: Pesan meja untuk berapa orang?
+  utter_ask_outdoor_seating:
+    - text: Kamu mau seat diluar atau didalam?
+  utter_ask_preferences:
+    - text: Ada informasi tambahan yang mau disampaikan?
+  utter_ask_feedback:
+    - text: Boleh berikan feedback untuk kami?
+  utter_submit:
+    - text: Oke, pesanan selesai!
+  utter_slot_values:
+    - text: "Oke, pesanannya sedang disiapkan ya \n - cuisine: {cuisine} \n - num_people:\
+      \ {num_people} \n - outdoor seating: {outdoor_seating} \n - preferences: {preferences}\
+      \ \n - feedback: {feedback}"
+  utter_wrong_cuisine:
+    - text: Masakan tersebut tidak ditemukan di data kami :(
+  utter_wrong_num_people:
+    - text: Boleh kasih tahunya pakai angka positif ya :D
+  utter_wrong_outdoor_seating:
+    - text: Mau pesan meja "diluar" atau "didalam"
+  utter_ask_nomor_kontrak:
+    - text: Kami membutuhkan data Anda untuk melakukan pencocokan data terlebih dahulu
+        sebagai keamanan data. Silakan ketik nomor kontrak aktif Anda
+  utter_ask_nomor_ktp:
+    - text: Silakan ketik nomor KTP Anda
+  utter_konfirmasi_salinan_dokumen_kontrak:
+    - text: Apakah Anda sudah menerima salinan dokumen kontrak Anda?
+      buttons:
+        - title: Ya, sudah
+          payload: '/konfirmasi{"is_terima_salinan_kontrak": true}'
+        - title: Tidak, belum
+          payload: '/tolak{"is_terima_salinan_kontrak": false}'
+  utter_follow_up_cabang:
+    - text: Apakah Anda bersedia cabang kami melakukan follow up kepada Anda maksimal 2x24 jam?
+      buttons:
+        - title: Iya
+          payload: '/konfirmasi{"is_talk_to_cs": true}'
+        - title: Tidak
+          payload: '/tolak{"is_talk_to_cs": false}'
+  utter_affirm_talk_to_agent:
+    - text: Anda akan segera dihubungkan ke live agent kami. Mohon menunggu
+  utter_end_dialog:
+    - text: Percakapan Anda telah selesai, terima kasih
+  utter_ask_continue:
+    - text: "{bot_name} gak paham. Mau lanjut pertanyaan tadi?"
+  utter_default:
+    - text: Sorry {bot_name} belum belajar tentang ini :(
+  utter_cancel_response:
+    - text: "Baik, percakapan ini {bot_name} batalkan ya"
+  utter_invalid_value:
+    - text: "Hmm... Coba ulangi kembali ya"
+    - text: "Boleh diulangi lagi? Aku gak paham jawabannya"
+  utter_ask_demo_quick_reply:
+    - text: "{bot_name} punya beberapa menu pilihan, silakan dicoba salah satu ya"
+      buttons:
+        - title: "link attachment"
+          payload: "link attachment"
+        - title: "octocat"
+          payload: "octocat"
+        - title: "monyet lucu"
+          payload: "monyet lucu"
+        - title: "kucing lucu"
+          payload: "kucing lucu"
+        - title: "avatar bot"
+          payload: "avatar bot"
+  utter_image_octocat:
+    - text: "Ini dia Octocat si gurita kucing"
+      image: "https://i.ibb.co/7CsMrpv/Octocat.png"
+  utter_image_kucing_lucu:
+    - text: "Coba lihat kucing ini, lucu sekali"
+      image: "https://i.ibb.co/QKcvDxN/kucing-lucu.jpg"
+  utter_image_monyet_lucu:
+    - text: "Mirip kamu ya... Lucu hahaha :D"
+      image: "https://i.ibb.co/19YYgNp/monyet-lucu.jpg"
+  utter_image_avatar_bot:
+    - text: "Hai, sekarang aku lagi pakai avatar ini lho:D"
+      image: "https://i.ibb.co/5G023yb/eunha.jpg"
+  utter_random_image:
+    - text: "{bot_name} coba tampilkan gambar random ya"
+    - text: "Hmmm... Ini dia gambarnya :D"
+  utter_ask_kendala_nomor_kontrak:
+    - text: "Silakan ketik angka di bawah apabila sesuai dengan kendala Anda"
+      buttons:
+        - title: "1 - Penagihan atas kontrak orang lain"
+          payload: "1"
+        - title: "2 - Nomor kontrak belum diterima"
+          payload: "2"
+        - title: "3 - Lainnya, sambungkan Live Agent"
+          payload: "3"
+  utter_ask_kontrak_aktif:
+    - text: "Apakah Anda memiliki kontrak aktif?"
+      buttons:
+        - title: "Iya"
+          payload: "iya"
+        - title: "Tidak"
+          payload: "tidak"
+  utter_ask_nomor_kontrak_sebenarnya:
+    - text: "Mohon dapat menyebutkan nomor kontrak sebenarnya"
+  utter_ask_nomor_hp:
+    - text: "Mohon masukkan nomor hp Aktif Anda"
+
