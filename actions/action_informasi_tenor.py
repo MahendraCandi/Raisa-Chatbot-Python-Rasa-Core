@@ -158,7 +158,7 @@ class InformasiTenorForm(FormAction):
             dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]
-    ) -> Dict[Text: Any]:
+    ) -> Optional[Dict]:
         valid = re.search(reg_12_num, value)
         intent = tracker.latest_message.get('intent', {}).get('name')
         if valid:
