@@ -1,0 +1,2349 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "5"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "6",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "6"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "7",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "7"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "8",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "8"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "9",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "9"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "10",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "10"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "1",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "saya pilih nomor 1"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "2",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 2 ya mbak"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "4",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 4 mbak"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "5 aja"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "6",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "pilih nomor 6 ya"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "7",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 7 boleh"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "8",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "8 boleh"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "9",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 9"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "10",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "nomor 10 ya"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1 dan 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1 dan 2",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1 dan 2"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "2 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "2 dan 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1 dan 3 nomor kontrak saya"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "1 dan 2",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "saya kenal 1 dan 2"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "2 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "pilih nomor 2 dan 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1, 2 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1, 2 dan 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "1, 2 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "saya pilih nomor 1, 2 dan 3"
+      },
+      {
+        "intent": "pilih_nomor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1, 2 dan 3",
+            "entity": "pilih_nomor"
+          }
+        ],
+        "text": "1, 2 dan 3"
+      },
+      {
+        "intent": "chitchat",
+        "text": "siapa nama kamu"
+      },
+      {
+        "intent": "chitchat",
+        "text": "1234"
+      },
+      {
+        "intent": "chitchat",
+        "text": "aku cinta kamu"
+      },
+      {
+        "intent": "chitchat",
+        "text": "aku cinta doraemon"
+      },
+      {
+        "intent": "chitchat",
+        "text": "aku sayang kamu"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "ok"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "oke"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "baik"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "boleh"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "siap"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "sip"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "ya"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "iya"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "sudah"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "udah"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "sudah saya terima"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "yups"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "udah saya terima"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "iya sudah diterima"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "ya, udah"
+      },
+      {
+        "intent": "sapaan",
+        "text": "hai"
+      },
+      {
+        "intent": "sapaan",
+        "text": "hello"
+      },
+      {
+        "intent": "sapaan",
+        "text": "halo"
+      },
+      {
+        "intent": "sapaan",
+        "text": "apa kabar"
+      },
+      {
+        "intent": "sapaan",
+        "text": "selamat siang"
+      },
+      {
+        "intent": "sapaan",
+        "text": "selamat pagi"
+      },
+      {
+        "intent": "sapaan",
+        "text": "selamat sore"
+      },
+      {
+        "intent": "sapaan",
+        "text": "selamat malam"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "sampai jumpa"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "bye"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "goodbye"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "nanti ngobrol lagi"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "see you"
+      },
+      {
+        "intent": "selamat_tinggal",
+        "text": "good luck"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "terima kasih"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "thx"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "oke"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "baik"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "mantap"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "trims"
+      },
+      {
+        "intent": "terima_kasih",
+        "text": "siap"
+      },
+      {
+        "intent": "tolak",
+        "text": "tidak"
+      },
+      {
+        "intent": "tolak",
+        "text": "gak mau"
+      },
+      {
+        "intent": "tolak",
+        "text": "bukan itu"
+      },
+      {
+        "intent": "tolak",
+        "text": "nggak"
+      },
+      {
+        "intent": "tolak",
+        "text": "gak"
+      },
+      {
+        "intent": "tolak",
+        "text": "jangan"
+      },
+      {
+        "intent": "tolak",
+        "text": "ulang kembali"
+      },
+      {
+        "intent": "tolak",
+        "text": "belum"
+      },
+      {
+        "intent": "tolak",
+        "text": "belum diterima"
+      },
+      {
+        "intent": "tolak",
+        "text": "belum saya terima"
+      },
+      {
+        "intent": "tolak",
+        "text": "tidak ada"
+      },
+      {
+        "intent": "tolak",
+        "text": "tidak saya terima"
+      },
+      {
+        "intent": "cancel",
+        "text": "batal"
+      },
+      {
+        "intent": "cancel",
+        "text": "stop"
+      },
+      {
+        "intent": "cancel",
+        "text": "jangan bicara lagi"
+      },
+      {
+        "intent": "cancel",
+        "text": "cancel"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "demo quick reply"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "coba quick reply"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "quick reply"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "tes quick reply"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "contoh quick reply"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "bagaimana quick reply di rasa core"
+      },
+      {
+        "intent": "show_quick_reply",
+        "text": "tunjukan tampilan quick reply"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "link attachment"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "cara menggunakan link"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "contoh attachment"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "contoh link attachment"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "demo link attachment"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "tampilkan link attachment"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "demo link"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "attachment file"
+      },
+      {
+        "intent": "link_attachment",
+        "text": "cara attachment file"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "tampilkan gambar"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "demo tampil gambar"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "show image"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "tampilkan image"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "demo image di rasa core"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "image di rasa core"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "tunjukan image"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "contoh image di rasa core"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "contoh random image"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "random image"
+      },
+      {
+        "intent": "show_random_image",
+        "text": "tampilkan random image"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "tampilkan gambar octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "gambar octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "image octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "tunjukan gambar octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "tunjukan image octocat"
+      },
+      {
+        "intent": "show_octocat",
+        "text": "show octocat image"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "kucing lucu"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "tampilkan gambar kucing lucu"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "image kucing lucu"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "show kucing lucu image"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "tunjukan gambar kucing lucu"
+      },
+      {
+        "intent": "show_kucing_lucu",
+        "text": "gambar kucing lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "tampilkan gambar monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "gambar monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "image monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "tunjukan gambar monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "tunjukan image monyet lucu"
+      },
+      {
+        "intent": "show_monyet_lucu",
+        "text": "show monyet lucu image"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "avatar bot"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "aku mau lihat gambar avatar bot"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "tampilkan avatar bot"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "image avatar bot"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "avatar bot kamu apa"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "gambar avatar siapa ini"
+      },
+      {
+        "intent": "show_avatar_bot",
+        "text": "ini image avatar siapa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "turkey",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "makanan turkey"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "italia",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "gimana kalo masakan italia"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "india",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "india boleh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "spanyol",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "masakan spanyol"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "korea",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "korea"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "arab",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "restoran arab"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "perancis",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "saya mau restoran perancis"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "eropa modern",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "eropa modern boleh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "sunda",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "hmmm restoran sunda boleh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "padang",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "makanan padang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "prancis",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "makanan prancis"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "korea",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "makanan korea"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "brazil",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "saya cari masakan brazil"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "italia",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "saya cari masakan italia"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "jepang",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "saya cari restoran jepang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "diluar",
+            "entity": "seating"
+          }
+        ],
+        "text": "saya mau duduk diluar"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "didalam",
+            "entity": "seating"
+          }
+        ],
+        "text": "saya mau bangku didalam"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "indoor",
+            "entity": "seating"
+          }
+        ],
+        "text": "pilih di indoor"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "outdoor",
+            "entity": "seating"
+          }
+        ],
+        "text": "outdoor saja"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "sangat baik",
+            "entity": "feedback"
+          }
+        ],
+        "text": "menurut saya sangat baik"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "baik",
+            "entity": "feedback"
+          }
+        ],
+        "text": "feedback-nya baik"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "bagus",
+            "entity": "feedback"
+          }
+        ],
+        "text": "bagus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "mantap banget",
+            "entity": "feedback"
+          }
+        ],
+        "text": "mantap banget"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "jelek sekali",
+            "entity": "feedback"
+          }
+        ],
+        "text": "jelek sekali"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "2",
+            "entity": "num_people"
+          }
+        ],
+        "text": "pesan bangku untuk dua orang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "6",
+            "entity": "num_people"
+          }
+        ],
+        "text": "pesan meja untuk enam orang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 23,
+            "value": "12",
+            "entity": "num_people"
+          }
+        ],
+        "text": "booking tempat untuk 12 orang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 19,
+            "value": "6",
+            "entity": "num_people"
+          }
+        ],
+        "text": "booking meja buat 6"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "7",
+            "entity": "num_people"
+          }
+        ],
+        "text": "tujuh orang ya"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "7",
+            "entity": "num_people"
+          }
+        ],
+        "text": "7 orang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "padang",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "padang"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "perancis",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "perancis"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "eropa modern",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "eropa modern"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "8",
+            "entity": "num_people"
+          }
+        ],
+        "text": "8"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "num_people"
+          }
+        ],
+        "text": "5"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "6",
+            "entity": "num_people"
+          }
+        ],
+        "text": "6"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "saya mau cek tenor kredit"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "cek informasi tenor"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "informasi tenor"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "tenor kredit saya berapa ya?"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "cek bayar bulanan motor saya"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "cek biaya bulanan motor saya"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "mau cari tahu informasi tenor motor saya"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "mau cari info tenor motor dong"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "info tenor motor saya ya"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "berapa tenor motor saya?"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "text": "tenor motor saya berapa bulan?"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "101000861717",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "tenor motor saya dengan nomor 101000861717"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "301500002217",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "informasi tenor dengan kontrak 301500002217"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "106000002818",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "cek tenor motor nomor kontrak 106000002818"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "101808529718",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "nomor ini 101808529718 tenornya berapa ya?"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "929000003308",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "kontrak 929000003308 berapa lama tenornya"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "106000002818",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "cek tenor kontrak 106000002818"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "101001223808",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "saya punya nomor kontrak 101001223808. kira2 tenornya berapa ya?"
+      },
+      {
+        "intent": "cek_informasi_tenor",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "101808529718",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "cek informasi tenor 101808529718"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "101000861717",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "101000861717"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "101000861717",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini nomor kontrak 101000861717"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "301500002217",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "301500002217"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "106000002818",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini 106000002818"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "101808529718",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "nih 101808529718"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "929000003308",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "929000003308 nomor kontrak saya"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "101808529718",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "101808529718 nomornya"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "101001165018",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "101001165018 nomor kontraknya"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "101001223808",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini mbak nomor kontrak 101001223808"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "123412341234",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini mbak no nya 123412341234"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "101230982384",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "nomor kontrak 101230982384"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "101200330652",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini nomor kontrak saya 101200330652"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "101002037805",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "101002037805 nomor kontraknya"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "101312340987",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "nomor saya 101312340987"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "101444221167",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "no saya 101444221167"
+      },
+      {
+        "intent": "ketik_nomor_kontrak",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "101955220908",
+            "entity": "nomor_kontrak"
+          }
+        ],
+        "text": "ini no nya 101955220908"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3175072010820005",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "3175072010820005"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "0954032904600218",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "0954032904600218"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 4,
+            "end": 20,
+            "value": "3175071408670004",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "ini 3175071408670004"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 4,
+            "end": 20,
+            "value": "2550015009810001",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "nih 2550015009810001"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "2550015009810001",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "ini nomor ktp saya 2550015009810001"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "2550015009810001",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "2550015009810001"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "2550015009810001",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "ini ktp saya 2550015009810001"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "3175071408670004",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "ini mbak 3175071408670004"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "0954032904600218",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "0954032904600218"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3175072010820005",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "3175072010820005"
+      },
+      {
+        "intent": "ketik_nomor_ktp",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3175072611850014",
+            "entity": "nomor_ktp"
+          }
+        ],
+        "text": "3175072611850014"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "siapa yang tanding saat ini"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "pertandingan kriket sekarang"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "tim mana yang saling bertanding di ipl"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "tim kriket yang sedang bertanding"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "pertandingan kriket selanjutnya"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "siapa yang menang di pertandingan kriket kemarin"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "juara kriket kemarin"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "tim mana yang menang"
+      },
+      {
+        "intent": "pertandingan_kriket",
+        "text": "hasil pertandingan kriket"
+      },
+      {
+        "intent": "cek_nomor_kontrak",
+        "text": "cek nomor kontrak"
+      },
+      {
+        "intent": "cek_nomor_kontrak",
+        "text": "saya punya kendala di nomor kontrak"
+      },
+      {
+        "intent": "cek_nomor_kontrak",
+        "text": "kendala nomor kontrak"
+      },
+      {
+        "intent": "cek_nomor_kontrak",
+        "text": "nomor kontrak terkendala"
+      },
+      {
+        "intent": "cek_nomor_kontrak",
+        "text": "tanya seputar nomor kontrak"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "1",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "penagihan atas kontrak orang lain"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "1",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "kontrak orang lain"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "1",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "penagihan orang lain"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "1",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "kontrak lain"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "2",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "nomor kontrak belum diterima"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "2",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "kontrak belum diterima"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "3",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "lainnya"
+      },
+      {
+        "intent": "kendala_nomor_kontrak",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "3",
+            "entity": "kendala_nomor_kontrak"
+          }
+        ],
+        "text": "sambungkan ke live agent"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "085692248421",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "085692248421"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "085691982836",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini mbak 085691982836"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "02193140546",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini 02193140546"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "08158117149",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini 08158117149"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "08159559610",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "bisa dihubungi disini 08159559610"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "083873534095",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "no saya 083873534095"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "02196174552",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini mbak no nya 02196174552"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "083841159424",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "083841159424"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "085692248421",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini nomor telepon saya 085692248421"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "02198976654",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini mbak nomor telpon saya 02198976654"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "082188375642",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini mbak nomor handphone saya 082188375642"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "085691982836",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "ini 085691982836 nomor hp saya"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "02193140546",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "nomor hp saya 02193140546"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "08158117149",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "08158117149 nomor hp saya"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "08159559610",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "08159559610 nomornya"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "083873534095",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "telpon saya 083873534095"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "02196174552",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "02196174552 mbak"
+      },
+      {
+        "intent": "ketik_nomor_handphone",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "083841159424",
+            "entity": "nomor_hp"
+          }
+        ],
+        "text": "083841159424 hp saya"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "cari restoran dong"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "saya sedang cari restoran"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "mau cari restoran"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "restoran terdekat dimana ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "booking restoran"
+      },
+      {
+        "intent": "cari_restoran",
+        "text": "saya mau booking restoran"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "cina",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "mau booking restoran cina"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "cina",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "mau cari restoran cina"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "italia",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "cari restoran italia dong"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "brazil",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "sedang cari restoran brazil ada dimana ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "indonesia",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "makanan indonesia ada di daerah mana ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "arab",
+            "entity": "cuisine"
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "value": "5",
+            "entity": "num_people"
+          }
+        ],
+        "text": "booking restoran arab untuk 5 orang ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "10",
+            "entity": "num_people"
+          }
+        ],
+        "text": "pesan meja untuk 10 orang"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 26,
+            "end": 27,
+            "value": "4",
+            "entity": "num_people"
+          }
+        ],
+        "text": "tolong carikan meja untuk 4 orang ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "5",
+            "entity": "num_people"
+          }
+        ],
+        "text": "booking meja lima orang ya"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "7",
+            "entity": "num_people"
+          }
+        ],
+        "text": "cari restoran buat tujuh orang"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "amerika",
+            "entity": "cuisine"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "8",
+            "entity": "num_people"
+          }
+        ],
+        "text": "pesan restoran amerika buat delapan orang"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "amerika",
+            "entity": "cuisine"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "9",
+            "entity": "num_people"
+          }
+        ],
+        "text": "pesan meja restoran amerika buat sembilan orang"
+      },
+      {
+        "intent": "cari_restoran",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "prancis",
+            "entity": "cuisine"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "6",
+            "entity": "num_people"
+          }
+        ],
+        "text": "cari restoran masakan prancis booking buat enam bangku"
+      },
+      {
+        "intent": "cek_restoran",
+        "text": "cek pesanan saya"
+      },
+      {
+        "intent": "cek_restoran",
+        "text": "tadi pesanan saya apa ya"
+      },
+      {
+        "intent": "cek_restoran",
+        "text": "tadi saya pesan restoran apa ya?"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "nomor_hp",
+        "pattern": "(\\+62|0|62)\\s?[2-9]\\d{2,3}\\-?\\d{2,4}\\-?\\d{3,4}"
+      },
+      {
+        "name": "nomor_kontrak",
+        "pattern": "\\d{12}"
+      },
+      {
+        "name": "nomor_ktp",
+        "pattern": "\\d{16}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "2",
+        "synonyms": [
+          "dua",
+          "nomor kontrak belum diterima",
+          "kontrak belum diterima"
+        ]
+      },
+      {
+        "value": "6",
+        "synonyms": [
+          "enam"
+        ]
+      },
+      {
+        "value": "7",
+        "synonyms": [
+          "tujuh"
+        ]
+      },
+      {
+        "value": "1",
+        "synonyms": [
+          "penagihan atas kontrak orang lain",
+          "kontrak orang lain",
+          "penagihan orang lain",
+          "kontrak lain"
+        ]
+      },
+      {
+        "value": "3",
+        "synonyms": [
+          "lainnya",
+          "sambungkan ke live agent"
+        ]
+      },
+      {
+        "value": "5",
+        "synonyms": [
+          "lima"
+        ]
+      },
+      {
+        "value": "8",
+        "synonyms": [
+          "delapan"
+        ]
+      },
+      {
+        "value": "9",
+        "synonyms": [
+          "sembilan"
+        ]
+      }
+    ]
+  }
+}
