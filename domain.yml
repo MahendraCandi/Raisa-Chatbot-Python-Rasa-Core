@@ -148,9 +148,9 @@ templates:
   utter_submit:
     - text: Oke, pesanan selesai!
   utter_slot_values:
-    - text: "Oke, pesanannya sedang disiapkan ya \n - cuisine: {cuisine} \n - num_people:\
-      \ {num_people} \n - outdoor seating: {outdoor_seating} \n - preferences: {preferences}\
-      \ \n - feedback: {feedback}"
+    - text: "Oke, pesanannya sedang disiapkan ya \n - cuisine: {cuisine} \n - num_people:
+      {num_people} \n - outdoor seating: {outdoor_seating} \n - preferences: {preferences}
+      \n - feedback: {feedback}"
   utter_wrong_cuisine:
     - text: Masakan tersebut tidak ditemukan di data kami :(
   utter_wrong_num_people:

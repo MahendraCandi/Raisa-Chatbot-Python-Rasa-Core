@@ -4,8 +4,11 @@ language: en
 pipeline: supervised_embeddings
 
 importers:
-- name: "git_importer.GitImporter"
-  repository: "MahendraCandi/Raisa-Chatbot-Python-Rasa-Core"
+  - name: "importer_mongo.MongoImporter"
+
+#importers:
+#- name: "importer_git.GitImporter"
+#  repository: "MahendraCandi/Raisa-Chatbot-Python-Rasa-Core"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
