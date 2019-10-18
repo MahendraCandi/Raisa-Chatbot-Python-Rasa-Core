@@ -25,14 +25,14 @@ class GitImporter(TrainingDataImporter):
         self.repository = github.get_repo(repository)
 
         data_files = self.get_files_from("data")
-        print(f'DATA FILES: {data_files}')
+        # print(f'DATA FILES: {data_files}')
         directory = tempfile.mkdtemp()
         for f in data_files:
             print(type(f))
             with open(os.path.join(directory, f.name), "w+b") as file:
-                print(f'FILE: {file.name}')
+                # print(f'FILE: {file.name}')
                 file.write(f.decoded_content)
-        print(f'DIRECTORY: {directory}')
+        # print(f'DIRECTORY: {directory}')
         self.story_files, self.nlu_files = rasa.data.get_core_nlu_files([directory])
 
     def get_files_from(self, directory: Text) -> List[ContentFile]:

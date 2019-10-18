@@ -37,21 +37,21 @@ class MongoImporter(TrainingDataImporter):
     @staticmethod
     def extract_nlu(directory):
         client = pymongo.MongoClient("mongodb://127.0.0.1:27017/")
-        print(f'CLIENT: {client}')
-        print(f'CLIENT: {client.list_database_names()}')
+        # print(f'CLIENT: {client}')
+        # print(f'CLIENT: {client.list_database_names()}')
         mydb = client["rasaMongo"]
-        print(f'MYDB: {mydb}')
-        print(f'MYDB: {mydb.list_collection_names()}')
-        print(f'MYDB: {mydb.list_collections()}')
+        # print(f'MYDB: {mydb}')
+        # print(f'MYDB: {mydb.list_collection_names()}')
+        # print(f'MYDB: {mydb.list_collections()}')
         # cursor = mydb["training_data"].find({})
         training_data = {}
         for x in mydb["training_data"].find({}):
             if x.get('nlu_data') is not None:
                 training_data = x.get('nlu_data')
-        print(f'TRAINING DATA: {training_data}')
-        print(f'DIRECTORY: {directory}')
+        # print(f'TRAINING DATA: {training_data}')
+        # print(f'DIRECTORY: {directory}')
         with open(os.path.join(directory, 'nlu_training_data.json'), 'w') as file:
-            print(f'FILE: {file.name}')
+            # print(f'FILE: {file.name}')
             json.dump(training_data, file)
 
     @staticmethod
@@ -63,11 +63,11 @@ class MongoImporter(TrainingDataImporter):
             # and filename.endswith(".md"):
             # if os.path.isfile(filename):
             if filename.endswith(".md"):
-                print(f'FILE NAME: {filename}')
+                # print(f'FILE NAME: {filename}')
                 with open(os.path.join(path_stories, filename), 'r') as file:
                     # print(file.read())
                     files[filename] = file.read()
-        print(f'FILES: {files}')
+        # print(f'FILES: {files}')
 
         for filename, value in files.items():
             with open(os.path.join(directory, filename), 'w') as file:
