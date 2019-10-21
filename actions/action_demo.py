@@ -1,7 +1,7 @@
 import random
 from typing import Text, List, Dict
 
-
+from linebot.models import TemplateSendMessage, CarouselTemplate, CarouselColumn, MessageAction
 from rasa_sdk import Action
 from rasa_sdk import Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -56,6 +56,7 @@ class Demo(Action):
                 ]
             }
             dispatcher.utter_custom_json(json_message=message)
+
         else:
             dispatcher.utter_template('utter_ask_demo_quick_reply', tracker=tracker)
 

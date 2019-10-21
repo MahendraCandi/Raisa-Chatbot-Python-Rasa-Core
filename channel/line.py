@@ -25,7 +25,6 @@ from linebot.exceptions import (
     InvalidSignatureError
 )
 
-_image_url = "https://i.ibb.co/5G023yb/eunha.jpg"
 
 class TheMessage:
 
@@ -158,15 +157,46 @@ class LineBot(OutputChannel):
             await self.send_text_with_buttons(
                 recipient_id, message.pop("text"), message.pop("buttons"), **message
             )
-        if message.get("text"):
+        elif message.get("text"):
             await self.send_text_message(recipient_id, message.pop("text"), **message)
+
+        if message.get("custom"):
+            await self.send_custom_json(recipient_id, message.pop("custom"), **message)
+
         if message.get("image"):
             await self.send_image_url(recipient_id, message.pop("image"), **message)
+
+        if message.get("attachment"):
+            await self.send_attachment(
+                recipient_id, message.pop("attachment"), **message
+            )
+
         self.send()
 
     def send(self):
         print(f'MESSAGE TO SEND: {self.messages}')
         self.line_bot_api.reply_message(self.reply_token, self.messages)
+
+    async def send_attachment(
+        self, recipient_id: Text, attachment: Text, **kwargs: Any
+    ) -> None:
+        await self.send_text_message(
+            recipient_id=recipient_id,
+            text=attachment
+        )
+
+    async def send_custom_json(
+        self, recipient_id: Text, json_message: Dict[Text, Any], **kwargs: Any
+    ) -> None:
+        print(f'DICT MESSAGE: {json_message}')
+        template = TemplateSendMessage(
+            alt_text=json_message['altText'],
+            template=json_message['template'],
+            type=json_message['type'],
+        )
+        print(f"TYPE: {type(template)}")
+        print(f"TYPE: {template}")
+        self.messages.append(template)
 
     async def send_text_with_buttons(
         self,
@@ -175,6 +205,8 @@ class LineBot(OutputChannel):
         buttons: List[Dict[Text, Any]],
         **kwargs: Any
     ) -> None:
+        """Send Rasa default button as quick replies"""
+
         quick_reply_buttons = []
         for button in buttons:
             quick_reply_buttons.append(
